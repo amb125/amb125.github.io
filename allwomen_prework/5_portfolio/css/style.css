@@ -1,0 +1,126 @@
+body {
+    background-color: #477A91;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #FFFFFF;
+    margin: 2rem;
+}
+
+.welcome {
+    color: #FFFFFF;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-style: normal; 
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 10% 0;
+}
+.wrapper p {
+    margin: 0;
+    padding: 0;
+    flex-basis: 25%;
+}
+.line1 {
+    font-size: 3rem;
+}
+.line2 {
+    font-size: 2.3rem;
+}
+.line3 {
+    font-size: 6.25rem;
+    color: #D6AA58;
+}
+.line4 {
+    font-size: 2.8rem;
+}
+
+nav ul {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    width: 5rem;
+    padding: 1.6rem;
+    text-align: center;
+    color: #A9CDD4;
+    font-size: 1.6rem;
+    font-family: "Give You Glory", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #A9CDD4;
+}
+a:hover {
+    color: #FFFFFF;
+}
+h1, h2 {
+    font-family: "Give You Glory", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+p {
+    font-size: 1.5rem;
+}
+blockquote {
+    float: right;
+    margin-right: 20%;
+    padding: 1rem;
+    border: 3px dotted #D6AA58;
+    border-radius: 40px;
+}
+img {
+    border-radius: 20px;
+}
+div {
+    margin-bottom: 4rem;
+}
+li {
+    font-size: 1.2rem;
+}
+.backtohome {
+    float: right;
+    font-family: "Give You Glory", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+.address {
+    text-align: center;
+}
+div.address {
+    clear: both;
+}
+
+.brand {
+    margin: 0;
+    font-size: 50px;
+    cursor: grab;
+    cursor: -webkit-grab;
+    z-index: 10;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}

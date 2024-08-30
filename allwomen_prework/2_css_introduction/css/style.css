@@ -1,0 +1,53 @@
+/* my first css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C4E8F3;
+}
+
+img {
+    border: 10px solid green;
+}
+
+h1 {
+    border: 5px dotted red;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+cite {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+ula:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:visited {
+    color: green;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+}
+
+a.harvard:link {
+    color: maroon;
+}
